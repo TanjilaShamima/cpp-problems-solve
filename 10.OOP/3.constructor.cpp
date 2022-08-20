@@ -31,10 +31,10 @@ class Employee
             cout << "Employee ID : " << eId << "   Employee Name: " << eName << "   Employee Salary : " << eSalary << endl;
         }
 
-        Employee(int a, string b, double c) {
-            eId = a;
-            eName = b;
-            eSalary = c;
+        Employee(int eId, string eName, double eSalary) {
+            this->eId = eId;
+            this->eName = eName;
+            this->eSalary = eSalary;
         }
 
         Employee() {
